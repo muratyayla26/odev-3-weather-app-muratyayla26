@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  text-align: center;
+  display: inline-block;
+}
+
+select {
+  width: 240px;
+  height: 50px;
+  font-size: 25px;
+  border-radius: 10px;
+  font-family: "Roboto";
+}
+select:focus {
+  outline: none;
+}
+
+.forecastsContainer {
+  height: 250px;
+  border: 5px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 900;
+  font-family: "Roboto";
+}
+
+.forecastContainer {
+  width: 150px;
+  height: 200px;
+  border: 1px solid rgb(224, 224, 224);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(250, 250, 250);
+}
+
+.date {
+  color: grey;
+}
+
+.minMax{
+  max-width: 100%;
+  display: flex;
+}
+
+.max {
+  margin-right: 15px;
+  color: rgb(55, 55, 68);
+}
+
+.min {
+  color: grey;
+}
