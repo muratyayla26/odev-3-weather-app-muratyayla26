@@ -3,7 +3,9 @@
   padding: 0;
 }
 
-.App{
+.App {
+  position: relative;
+  top: 250px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -54,7 +56,7 @@ select:focus {
   align-items: center;
 }
 
-.forecastContainer-currentDay{
+.forecastContainer-currentDay {
   width: 150px;
   height: 200px;
   border: 1px solid rgb(224, 224, 224);
@@ -69,7 +71,7 @@ select:focus {
   color: grey;
 }
 
-.minMax{
+.minMax {
   max-width: 100%;
   display: flex;
 }
