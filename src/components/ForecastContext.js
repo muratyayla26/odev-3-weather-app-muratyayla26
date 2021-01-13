@@ -11,8 +11,7 @@ export const ForecastProvider = ({children}) => {
         results,
         setResults
     };
-    console.log(searchKey);
-    console.log(results);
+
     return (
         <ForecastContext.Provider value={values}>
             {children}

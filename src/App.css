@@ -25,9 +25,18 @@ select:focus {
   outline: none;
 }
 
-.forecastsContainer {
+/*.forecastsContainer {
   height: 250px;
   border: 5px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 900;
+  font-family: "Roboto";
+}*/
+
+.forecastsContainer {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -37,6 +46,15 @@ select:focus {
 }
 
 .forecastContainer {
+  width: 150px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.forecastContainer-currentDay{
   width: 150px;
   height: 200px;
   border: 1px solid rgb(224, 224, 224);

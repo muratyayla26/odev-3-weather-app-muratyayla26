@@ -1,4 +1,4 @@
-const apiKey = "APIKEY";
+const apiKey = process.env.REACT_APP_API_KEY;
 
 export const search = async (searchKey) => {
     try {
